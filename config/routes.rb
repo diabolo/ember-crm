@@ -55,4 +55,7 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+  # Catch all for routes created by ember
+  get '*path', to: 'home#index'
 end
