@@ -40,4 +40,5 @@ gem 'emblem-rails'
 
 group :development do
   gem 'ffaker'
+  gem 'puma'
 end
