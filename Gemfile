@@ -37,3 +37,7 @@ gem 'ember-rails'
 gem 'ember-source'
 gem 'emblem-rails'
 
+
+group :development do
+  gem 'ffaker'
+end
