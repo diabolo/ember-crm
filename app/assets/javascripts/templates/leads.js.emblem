@@ -3,4 +3,4 @@ article#leads
   ul
     each lead in controller
       
-      li= lead.email
+      li= lead.firstName
