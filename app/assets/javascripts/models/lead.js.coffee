@@ -6,3 +6,7 @@ App.Lead = DS.Model.extend
   status: DS.attr('string')
   notes: DS.attr('string')
 
+  fullName: ( ->
+    @get('firstName') + ' ' + @get('lastName')
+  ).property('firstName', 'lastName')
+
