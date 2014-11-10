@@ -15,6 +15,7 @@ class Api::V1::LeadsController < ApplicationController
   end
 
   def update
+    sleep 1
     respond_with lead.update(lead_params)
   end
 
